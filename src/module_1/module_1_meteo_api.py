@@ -19,7 +19,7 @@ def get_data_meteo_api(city_name, latitude, longitude):
         "longitude": longitude,  # Longitud de la ciudad
         "start_date": "2010-01-01",  # Fecha de inicio
         "end_date": "2020-12-31",  # Fecha de fin
-        "daily": VARIABLES,  # Variables que queremos
+        "daily": VARIABLES,  # Variables que queremos (profe; .join(VARIABLES))
         "timezone": "Europe/Madrid"  # Zona horaria (para tener horas consistentes)
     }
     
@@ -99,3 +99,6 @@ def main():
 # Si ejecutamos este archivo, se llamará a la función main():
 if __name__ == "__main__":
     main()
+
+
+    #hhhhhh
